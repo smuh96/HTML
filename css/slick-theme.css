@@ -1,0 +1,35 @@
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+	z-index:100;
+    top: 40%;
+    display: block;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover:before{
+    content:url(../images/icon/arrow_left-hover.png);
+}
+.slick-next:hover:before{
+    content:url(../images/icon/arrow_right-hover.png);
+}
+.slick-prev
+{
+    left: -20px;
+}
+.slick-prev:before
+{
+    content:url(../images/icon/arrow_left-gray.png);
+}
+.slick-next
+{
+    right: -20px;
+}
+.slick-next:before
+{
+    content:url(../images/icon/arrow_right-gray.png);
+}

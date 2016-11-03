@@ -1,0 +1,424 @@
+body{
+		margin:0;
+}
+.main-wrapper{
+		width:100%;
+		height:auto;
+		float:left;
+}
+.main-wrapper{
+		width:100%;
+		height:auto;
+		float:left;
+}
+.bg{
+		width:100%;
+		height:660px;
+		float:left;
+}
+.video{
+		width:100%; 
+		height:650; 
+		overflow:hidden; 
+		position:absolute; 
+		z-index:-1;
+		top:10px;
+}
+.head-bar{
+		width:100%;
+		height:30px;
+		padding-top:10px;
+		font-size:15px;
+		font-family:Calibri;
+		float:left;
+		background-color:white;
+}
+.nav_container{
+		width:100%;
+		height:80px;
+		float:left;
+		background: rgba(25, 25, 25, .3);
+}
+.nav_class{
+		position:fixed;
+		top:0;
+		width:100%;
+		height:80px;
+		float:left;
+		background: rgba(25, 25, 25, .4);
+		z-index:1;
+}
+.searchtxt{
+		width:200px;
+		border-radius:5px;
+		padding-left:10px;
+		height:25px;
+		font-size:15px;
+		font-family:Calibri;
+		border:1px solid #e21e25;
+		color:black;
+}
+.searchbtn{
+		border-radius:5px;
+		height:25px;
+		margin-left:10px;
+		margin-right:40px;
+		border:none;
+		padding-right:10px;
+		color:white;
+		background-color:#e21e25;
+}
+.searchbtn:hover{
+		background-color:#c41017;
+}
+.screen{
+		width:1200px;
+		height:auto;
+		margin:0 auto;
+}
+.floatleft{
+		float:left;
+}
+.floatright{
+		float:right;
+}
+.icon{
+		width:25px;	
+		float:left;
+		padding-right:5px;
+}
+.slider_content{
+		width:100%;
+		height:auto;
+		margin-top:350px;
+		text-align:center;
+}
+.slider_content h3{
+		font-size:20px;
+		font-family:Calibri;
+		color:white;
+		letter-spacing:2px;
+}
+.slider_content h1{
+		font-size:50px;
+		font-family:Calibri;
+		color:white;
+		letter-spacing:10px;
+}
+.slider_txtbox{
+		border-radius:8px;
+		text-align:center;
+		font-size:20px;
+		font-family:Calibri;
+		border:1px solid #e21e25;
+		color:white;
+		background: rgba(234, 231, 231, .1);
+		text-align:center;
+		margin-left:40px
+}
+.slider_txtbox::-webkit-input-placeholder  {
+		color:white;
+}
+.slider_txtbox_size1{
+		width:300px;
+		height:50px;		
+}
+.slider_txtbox_size2{
+		width:200px;
+		height:50px;
+}
+#input_img {
+		position:relative;
+		right:40px; 
+		width:20px; 
+		height:20px;
+}
+input[type="date"]::-webkit-inner-spin-button {
+		display: none;
+}
+input[type="date"]::-webkit-clear-button {
+		-webkit-appearance: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator{
+		color:transparent;
+		background-color:transparent;
+}
+.slider_searchbtn{
+		width:100px;
+		border-radius:8px;
+		height:50px;
+		text-align:center;
+		margin-left:40px;
+		background-color:#e21e25;
+		border:none;
+		color:white;
+		font-size:15px;
+		font-family:Calibri;
+}
+.slider_searchbtn:hover{
+		background-color:#c41017;
+}
+.logo{
+		width:25%;
+		height:100%;
+		float:left;
+}
+.logoimg{
+		width:80%;
+		height:100%;
+		float:left;
+}
+.nav{
+		width:75%;
+		height:auto;
+		float:right;
+		margin-top:10px;
+}
+ul{
+		margin:0;
+		padding:0;
+}
+ul li{
+		list-style:none;
+}
+ul li a {
+		float:left;
+		display:block;
+		padding:20px 33px 20px 20px;
+		text-decoration:none;
+		color:white;
+		font-size:15px;
+		font-family:Calibri;
+		font-weight:bold;
+}
+ul li a:hover {
+		color:#e21e25;
+}
+.flights{
+		width:100%;
+		height:400px;
+		float:left;
+		padding-bottom:10px;
+		letter-spacing:3px;
+		text-align:center;
+}
+.flights_title{
+		width:90px;
+		padding:0px;
+		margin:15px auto;
+		text-align:center;
+		height:25px;
+		color:#e21e25;
+		font-size:20px;
+		font-family:Calibri;
+		border-bottom: 3px solid #e21e25;
+}
+.description{
+		color:Black;
+		letter-spacing:3px;
+		font-size:30px;
+		padding:0;
+		margin:10px 0px 10px 0px;
+		font-family:Calibri;
+}
+.gray_container{
+		width:100%;
+		height:auto;
+		float:left;
+}
+.flight_container{
+		padding:0;
+		width:270px;
+		margin:0 15px 0 15px;
+		height:auto;
+		float:left;
+}
+.flight_img{
+		width:100%;
+		height:30%;
+}
+.flight_img img{
+		width:100%;
+		height:100%;
+		border-radius:5px;
+}
+.flight_description{
+		width:90%;
+		margin-top:13px;
+		float:left;
+}
+.flight_description h4{		
+		color:Black;
+		letter-spacing:2px;
+		font-size:11px;
+		font-family:Arial;
+		font-weight:lighter;
+		float:left;
+		margin:0;
+		padding:0;
+}
+.flight_description h3{
+		
+		color:#e21e25;
+		letter-spacing:2px;
+		font-size:15px;
+		font-family:Arial;
+		float:left;
+		margin:-3px 0 0 0;
+		padding:0px;
+}
+.flight_description h5{
+		
+		color:#ccc;
+		letter-spacing:1px;
+		font-size:10px;
+		font-family:Arial;
+		margin:0;
+		padding:3px 0px 3px 0px;
+		float:left;
+}
+.flight_description h6{
+		letter-spacing:1px;
+		font-size:10px;
+		color:#e21e25;
+		font-family:Arial;
+		margin:0;
+		padding:3px 0px 3px 0px;
+		float:left;
+}
+.flight_description h2{
+		
+		color:black;
+		letter-spacing:1px;
+		font-size:13px;
+		padding:0;
+		font-family:Arial;
+		margin:0;
+		padding:3px 0px 3px 0px;
+		float:left;
+}
+.input_btn_left{
+		width:100px;
+		height:35px;
+		border-radius:3px;
+		margin-top:5px;
+		background-color:#e21e25;
+		border:none;
+		color:white;
+		font-size:15px;
+		font-family:Calibri;
+}
+.table_width{
+		width:270px;
+}
+.icon_flag{
+		width:100px;
+		height:18px;
+		float:right;
+		padding-right:5px;
+}
+.flight_description input:hover{		
+		background-color:#c41017;
+}
+.hotels{
+		width:100%;
+		height:400px;
+		float:left;
+		letter-spacing:3px;
+		padding-bottom:10px;
+		text-align:center;
+		background-color:#eeeeee;
+}
+.packages{
+		width:100%;
+		height:500px;
+		float:left;
+		text-align:center;
+		letter-spacing:3px;
+}
+.packages_title{
+		width:110px;
+		margin:20px auto;
+		height:25px;
+		color:#e21e25;
+		font-size:20px;
+		font-family:Calibri;
+		border-bottom: 3px solid #e21e25;
+}
+.packages h2{
+		color:Black;
+		letter-spacing:3px;
+		font-size:30px;
+		font-family:Calibri;
+}
+.packages_container{
+		padding:0;
+		width:350px;
+		margin:0 25px 0 25px;
+		height:auto;
+		float:left;
+}
+
+.packages_img{
+		width:100%;
+		height:50%;
+}
+.packages_img img{
+		width:100%;
+		height:100%;
+		border-radius:5px;		
+}
+.package_hover{
+		float:left;
+		width:100%;
+		height:40%;
+		top:-250;
+		position:relative;
+		border-radius:5px;
+		background-color:black;
+		color:white;
+		font-size:40px;
+		padding-top:50px;
+		opacity:0;
+}
+.package_hover:hover{
+		opacity:0.5;
+}
+.packages_description{
+		width:90%;
+		margin-top:13px;
+		float:left;
+}
+.tours{
+		width:100%;
+		height:500px;
+		float:left;
+		text-align:center;
+		letter-spacing:3px;
+		background-color:#eeeeee;
+}
+.tours_title{
+		width:70px;
+		margin:20px auto;
+		height:25px;
+		color:#e21e25;
+		font-size:20px;
+		font-family:Calibri;
+		border-bottom: 3px solid #e21e25;
+}
+.footer{
+		width:100%;
+		height:250px;
+		float:left;
+		text-align:center;
+		letter-spacing:3px;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
